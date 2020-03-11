@@ -1,0 +1,307 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Proxima Nova Regular';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/*Our style*/
+
+.wrapper{
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.center{
+	max-width: 1140px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+header .top_header{
+	height: 60px;
+	background-color:  #2d3e50;
+}
+
+header .flex_header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
+header .flex_header a{
+	font-size: 14px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+header .flex_header a:hover{
+	color: #ffc000;
+}
+
+header .flex_header i{
+	color: #ffc000;
+	margin-right: 20px;
+	font-size: 16px;
+	position: relative;
+	top: 2 px;
+}
+
+header .bottom_header{
+	height: 90px;
+	display: flex;
+	align-self: center;
+}
+
+header .bottom_header a{
+	font-family: 'Proxima Nova Bold';
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	height: 90px;
+	font-size: 21px;
+	color: #252c30;
+}
+
+header .bottom_header span{
+	color: #ffc000;
+}
+
+header .bottom_header .menu{
+	display: flex;
+}
+
+header .bottom_header .menu li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #252c30;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 30px;
+}
+
+header .bottom_header .menu li a:hover{
+	color: #ffc000;
+}
+
+header .bottom_header .search i{
+	font-size: 22px;
+	color: #252c30;
+}
+
+header .bottom_header .search:hover i{
+	color: #ffc000;
+	cursor: pointer;
+}
+
+header .bottom_header nav{
+	margin-left: 15%;
+}
+
+.container2{
+	background-image: url('./repace.png');
+	height: calc(100vh - 150px);
+	background-repeat: no-repeat;
+	min-height: 805px;
+	background-size: cover;
+}
+
+.container2 .center{
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+.container2 h1{
+	font-family: 'Proxima Nova Bold';
+	font-size:72px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.container2 h1 span{
+	color: #ffc000;
+}
+
+.container2 h1 span.center{
+	color: #fff;
+	margin-left: 10px;
+}
+
+.container2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-size:  20px;
+	padding-top: 40px;
+	color: #fff;
+}
+
+.container2 p span{
+	margin-left: 10px
+}
+
+.container2 .button{
+	font-family: 'Proxima Nova Bold';
+	background-color: #ffc000;
+	color: #fff;
+	border-radius: 43px;
+	height: 64px;
+	width: 274px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 400px;
+}
+
+.container2 .button:hover{
+	color: #ffc000;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.container3{
+	padding-top: 120px;
+	max-height: 705px;
+}
+
+.container3 .center .small_text, .container3 .center .small_text2{
+	text-align: center;
+	font-size: 24px;
+}
+
+.container3 .center h2{
+	font-family: 'Proxima Nova Bold';
+	text-align: center;
+	font-size: 38px;
+	font-weight: bold;
+	color: #252c30;
+}
+
+.container3 .center h2 span{
+	color: #ffc000;
+}
+
+.container3 .cards{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 65px;
+}
+
+.container3 .cards .item{
+	padding: 180px 0;
+	width: 23%;
+	background-color: #2d3e50;
+	text-align: center;
+}
+
+.container3 .cards .item:hover {
+	background-color: #ffffff;
+	border-style: solid 1px;
+	border: #ffc000 solid 1px;
+}
+
+.container3 .cards .item .icon{
+	height: 80px;
+	width: 80px;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+}
+
+.container3 .cards .item .icon img{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.container3 .cards .item .icon, .container3 .cards .item .icon h2{
+	color: #fff;
+}
+
+.container3 .cards .item .icon:hover, .container3 .cards .item .icon h2:hover{
+	background-color: #fff;
+	color: #2d3e50;
+}
+
+.container3 .cards .item .icon h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 65px;
+}
+
+.container3 .cards .item .icon p{
+	margin-top: 20px;
+}
+
+.container5{
+	background-image: url(./replace_image1.png);
+	height: 245px;
+	width: 100%;
+	margin-top: 225px;
+}
+
+.container5 .information{
+	display: flex;
+}
+
+.container5 .information li{
+	font-family: 'Proxima Nova Bold';
+	font-size: 25px;
+	color: #fff;
+	padding: 0 50px;
+	margin-top: 100px;
+}
+
+.container5 .information li span{
+	font-size: 50px;
+}
+
+
