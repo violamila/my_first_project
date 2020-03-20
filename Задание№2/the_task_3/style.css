@@ -1,0 +1,36 @@
+header{
+    text-align: center;
+    height: 15%;
+    width: 90%;
+    background-color: blueviolet;
+    border-radius: 0 0 15px 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.menu{
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background-color: rgb(247, 200, 183);
+}
+
+.menu p{
+    font-size: 20px;
+    margin: 50px 30px;
+}
+
+.center{
+    margin-left: 15%;
+}
+
+footer{
+    text-align: center;
+    width: 90%;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(173, 71, 62);
+    border-radius: 15px 15px 0 0;
+    margin-top: 480px;
+}
